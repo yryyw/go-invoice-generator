@@ -34,6 +34,7 @@ func New(docType string, options *Options) (*Document, error) {
 		Precision: doc.Options.CurrencyPrecision,
 		Thousand:  doc.Options.CurrencyThousand,
 		Decimal:   doc.Options.CurrencyDecimal,
+		Format:    doc.Options.CurrencyFormat,
 	}
 
 	return doc, nil
