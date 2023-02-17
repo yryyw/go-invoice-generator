@@ -1,4 +1,4 @@
-module github.com/yryyw/go-invoice-generator
+module github.com/yryyw/go-invoice-generator2
 
 go 1.17
 
